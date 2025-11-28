@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.14.0)
 
 project(geometry-central)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 ### Policy settings
 cmake_policy(SET CMP0054 NEW)   # don't implicitly dereference inside if()

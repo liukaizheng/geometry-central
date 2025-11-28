@@ -617,6 +617,8 @@ bool FlipEdgeNetwork::wedgeIsClear(const FlipPathSegment& pathSegmentNext, Segme
     return false;
   }
 
+  return true;
+
   // Split to cases based on which side the wedge faces. Either way, we're iterating around the wedge making sure there
   // are no path edges in the way.
   switch (type) {
